@@ -29,6 +29,8 @@
 6. [验证结果与排障](docs/06-validation-and-lessons.md)：通过了什么、怎样判断通过、还有什么没解决。
 7. [上游来源](docs/sources.md)：安装文档、下载入口和社区参考。
 
+公开前后的隐私检查、Root/chroot 使用边界和许可状态见[安全与公开说明](SECURITY.md)。
+
 ## 可以直接复用的部分
 
 - [主题配方](configs/theme-recipe.json)：网格、布局、配色和微件提供者；按配方重建。
