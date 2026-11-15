@@ -1,0 +1,51 @@
+{
+  "device": "Redmi K70",
+  "codename": "vermeer",
+  "version": "24.0",
+  "date": "2026-11-14",
+  "source_api": "https://download.lineageos.org/api/v2/devices/vermeer/builds",
+  "files": [
+    {
+      "filename": "lineage-24.0-20261114-nightly-vermeer-signed.zip",
+      "url": "https://mirrorbits.lineageos.org/full/vermeer/20261114/lineage-24.0-20261114-nightly-vermeer-signed.zip",
+      "size": 2838358176,
+      "sha256": "1382d57a364db5ad9a4f2a9df0c4e43e2d03caafb2d138609a0f13d2de0c273b"
+    },
+    {
+      "filename": "boot.img",
+      "url": "https://mirrorbits.lineageos.org/full/vermeer/20261114/boot.img",
+      "size": 201326592,
+      "sha256": "9d59c3e50bda78815c1c2cde665b2f0e5e9cab6717d3b04ae9ac339fccf561f5"
+    },
+    {
+      "filename": "dtbo.img",
+      "url": "https://mirrorbits.lineageos.org/full/vermeer/20261114/dtbo.img",
+      "size": 25165824,
+      "sha256": "cbead42a89773e7086bc55a75789df24f6f6209562ad6943074ccfe75553578b"
+    },
+    {
+      "filename": "init_boot.img",
+      "url": "https://mirrorbits.lineageos.org/full/vermeer/20261114/init_boot.img",
+      "size": 8388608,
+      "sha256": "5cc8b6251a9fbe6dafbe12a37269c5e094661344f9141b143b6704c0ffa18b44"
+    },
+    {
+      "filename": "recovery.img",
+      "url": "https://mirrorbits.lineageos.org/full/vermeer/20261114/recovery.img",
+      "size": 104857600,
+      "sha256": "daffb35385ff3ce85018a6d0e41c1cfe6a6165ed7402c2ea33b02d5183500bf5"
+    },
+    {
+      "filename": "vbmeta.img",
+      "url": "https://mirrorbits.lineageos.org/full/vermeer/20261114/vbmeta.img",
+      "size": 8192,
+      "sha256": "81dd4135d1d47c8caf94a9c4f3d9192a0e55a91ac1a2ae1306c0fb46f545505d"
+    },
+    {
+      "filename": "vendor_boot.img",
+      "url": "https://mirrorbits.lineageos.org/full/vermeer/20261114/vendor_boot.img",
+      "size": 100663296,
+      "sha256": "3b83e92b248f9569d1b83f0eeedf248afb70a542f256fcfcaaaaec2a9ddc4d45"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "recorded_date": "2026-11-16",
+  "format": "manual-rebuild-recipe",
+  "not_an_importable_backup": true,
+  "device_codename": "vermeer",
+  "tested_rom": "24.0-20261114-NIGHTLY-vermeer",
+  "launcher": {
+    "package": "app.lawnchair",
+    "version": "15 Beta 3",
+    "home_activity": "app.lawnchair/.LawnchairLauncher",
+    "grid_columns": 4,
+    "grid_rows": 6,
+    "pages": 2,
+    "dock_icons": 4,
+    "drawer_columns": 5,
+    "home_icon_scale": 0.95,
+    "drawer_icon_scale": 0.95,
+    "home_search_bar": false,
+    "drawer_search_bar": true,
+    "suggested_apps_row": false,
+    "smartspace": false,
+    "feed": false,
+    "two_line_drawer_labels": false,
+    "page_indicator": true
+  },
+  "icon_pack": {
+    "package": "website.leifs.delta.foss",
+    "version": "2.21.0"
+  },
+  "wallpaper": {
+    "title": "Painterly 2",
+    "author": "Leif Niemczik",
+    "source": "https://delta-icons.github.io/wallpapers/android/painterly_2.jpg",
+    "sha256": "17520b31df682a5d849bc3655e510cdc92e428c3e161779e78dfb4743d52a868",
+    "targets": [
+      "home",
+      "lock"
+    ]
+  },
+  "system_palette": {
+    "android.theme.customization.color_source": "preset",
+    "android.theme.customization.system_palette": "9BA1B3",
+    "android.theme.customization.theme_style": "TONAL_SPOT"
+  },
+  "desktop_apps": [
+    {
+      "title": "逆向工作台",
+      "component": "dev.k70.reverselab/.MainActivity",
+      "container": -100,
+      "screen": 0,
+      "cellX": 0,
+      "cellY": 5
+    },
+    {
+      "title": "Termux",
+      "component": "com.termux/.app.TermuxActivity",
+      "container": -100,
+      "screen": 0,
+      "cellX": 1,
+      "cellY": 5
+    },
+    {
+      "title": "PCAPdroid",
+      "component": "com.emanuelef.remote_capture/.activities.MainActivity",
+      "container": -100,
+      "screen": 0,
+      "cellX": 2,
+      "cellY": 5
+    },
+    {
+      "title": "Magisk",
+      "component": "com.topjohnwu.magisk/.ui.MainActivity",
+      "container": -100,
+      "screen": 0,
+      "cellX": 3,
+      "cellY": 5
+    },
+    {
+      "title": "电话",
+      "component": "com.android.dialer/.main.impl.MainActivity",
+      "container": -101,
+      "screen": 0,
+      "cellX": 0,
+      "cellY": 0
+    },
+    {
+      "title": "浏览器",
+      "component": "org.lineageos.jelly/.MainActivity",
+      "container": -101,
+      "screen": 1,
+      "cellX": 1,
+      "cellY": 0
+    },
+    {
+      "title": "文件",
+      "component": "com.android.documentsui/.LauncherActivity",
+      "container": -101,
+      "screen": 2,
+      "cellX": 2,
+      "cellY": 0
+    },
+    {
+      "title": "设置",
+      "component": "com.android.settings/.Settings",
+      "container": -101,
+      "screen": 3,
+      "cellX": 3,
+      "cellY": 0
+    },
+    {
+      "title": "图库",
+      "component": "org.lineageos.glimpse/.MainActivity",
+      "container": -100,
+      "screen": 1,
+      "cellX": 0,
+      "cellY": 4
+    },
+    {
+      "title": "时钟",
+      "component": "com.android.deskclock/.DeskClock",
+      "container": -100,
+      "screen": 1,
+      "cellX": 1,
+      "cellY": 4
+    },
+    {
+      "title": "日历",
+      "component": "ws.xsoh.etar.debug/com.android.calendar.AllInOneActivity",
+      "container": -100,
+      "screen": 1,
+      "cellX": 2,
+      "cellY": 4
+    },
+    {
+      "title": "音乐",
+      "component": "org.lineageos.twelve/.MainActivity",
+      "container": -100,
+      "screen": 1,
+      "cellX": 3,
+      "cellY": 4
+    },
+    {
+      "title": "天气",
+      "component": "org.breezyweather/.ui.main.MainActivity",
+      "container": -100,
+      "screen": 1,
+      "cellX": 0,
+      "cellY": 5
+    },
+    {
+      "title": "计算器",
+      "component": "com.android.calculator2/.Calculator",
+      "container": -100,
+      "screen": 1,
+      "cellX": 1,
+      "cellY": 5
+    },
+    {
+      "title": "酷安",
+      "component": "com.coolapk.market/.view.main.MainActivity",
+      "container": -100,
+      "screen": 1,
+      "cellX": 2,
+      "cellY": 5
+    },
+    {
+      "title": "短信",
+      "component": "com.android.messaging/.ui.conversationlist.ConversationListActivity",
+      "container": -100,
+      "screen": 1,
+      "cellX": 3,
+      "cellY": 5
+    }
+  ],
+  "widgets": [
+    {
+      "provider": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider",
+      "screen": 0,
+      "cellX": 0,
+      "cellY": 0,
+      "spanX": 4,
+      "spanY": 1,
+      "bind_fresh_id_to_current_launcher": true
+    },
+    {
+      "provider": "org.breezyweather/org.breezyweather.background.receiver.widget.WidgetMaterialYouForecastProvider",
+      "screen": 0,
+      "cellX": 0,
+      "cellY": 2,
+      "spanX": 4,
+      "spanY": 3,
+      "bind_fresh_id_to_current_launcher": true
+    },
+    {
+      "provider": "org.lineageos.twelve/org.lineageos.twelve.ui.widgets.NowPlayingAppWidgetProvider",
+      "screen": 1,
+      "cellX": 0,
+      "cellY": 1,
+      "spanX": 4,
+      "spanY": 1,
+      "bind_fresh_id_to_current_launcher": true
+    }
+  ],
+  "icon_overrides": [
+    {
+      "target": "dev.k70.reverselab/dev.k70.reverselab.MainActivity#0",
+      "packPackageName": "website.leifs.delta.foss",
+      "drawableName": "code_editor",
+      "label": "code_editor",
+      "type": "Normal"
+    },
+    {
+      "target": "ws.xsoh.etar.debug/com.android.calendar.AllInOneActivity#0",
+      "packPackageName": "website.leifs.delta.foss",
+      "drawableName": "calendar_",
+      "label": "Calendar",
+      "type": "Calendar"
+    }
+  ],
+  "weather": {
+    "select_your_own_fixed_city": true,
+    "provider_group": "China",
+    "usb_only_vpn_detection_limitation": "Breezy 6.2.2 may report offline; cached display is not a verified refresh."
+  },
+  "sources": {
+    "icons": "https://github.com/Delta-Icons/android",
+    "launcher": "https://github.com/LawnchairLauncher/lawnchair/releases/tag/v15.0.0-beta3.0",
+    "wallpaper": "https://delta-icons.github.io/wallpapers/android/painterly_2.jpg",
+    "wallpaper_author": "Leif Niemczik"
+  },
+  "recent_tasks": "native Trebuchet/Quickstep kept; QuickSwitch not installed"
+}

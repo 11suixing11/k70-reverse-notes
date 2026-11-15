@@ -1,0 +1,7 @@
+{
+  "name": "k70-local-reverse-agent",
+  "private": true,
+  "dependencies": {
+    "frida-java-bridge": "7.0.13"
+  }
+}
